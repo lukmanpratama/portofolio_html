@@ -4,6 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      table, th, td {
+          border: 1px solid black;
+      }
+      code {
+        font-family: Consolas,"courier new";
+        color: crimson;
+        background-color: #f1f1f1;
+        padding: 2px;
+        font-size: 105%;
+      }
+      </style>
   </head>
   <body>
     <p>This is <sup>superscripted</sup> text.</p>
@@ -46,5 +58,35 @@
       million globally.
     </blockquote>
     <button type="button">Click Me!</button>
+    <table>
+      <caption style="text-align:right">My savings</caption>
+      <tr>
+        <th>Month</th>
+        <th>Savings</th>
+      </tr>
+      <tr>
+        <td>January</td>
+        <td>$100</td>
+      </tr>
+    </table>
+    <br>
+    <p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>
+    <p>The CSS <code>background-color</code> property defines the background color of an element.</p>
+    <table>
+      <colgroup>
+        <col span="2" style="background-color:red">
+        <col style="background-color:yellow">
+      </colgroup>
+      <tr>
+        <th>ISBN</th>
+        <th>Title</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td>3476896</td>
+        <td>My first HTML</td>
+        <td>$53</td>
+      </tr>
+    </table>
   </body>
 </html>
